@@ -4,10 +4,10 @@ const port = process.env.PORT || 3000;
 const path = require('path');
 const viewsPath = path.join(__dirname, './views');
 
+app.use(express.urlencoded({ extened: true }));
 app.use('/', require('./routes/index'));
 app.set("view engine", "ejs");
 app.set('views', viewsPath);
-app.use(express.urlencoded({ extened: true }));
 app.use(express.static('public'));
 
 // server

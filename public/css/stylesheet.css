@@ -21,6 +21,12 @@
     outline: none;
 }
 
+.search button {
+    position: relative;
+    bottom: 5px;
+    height: 58px;
+}
+
 .img {
     width: 300px;
     height: 200px;
