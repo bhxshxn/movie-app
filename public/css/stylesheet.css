@@ -33,3 +33,9 @@
     background: url("/images/my.png");
     background-size: cover;
 }
+
+.fa-heart {
+    color: red;
+    margin-left: 30px;
+    font-size: 20px;
+}

@@ -19,7 +19,9 @@
                                 <p class="card-text">
                                     <%=item.overview%>
                                 </p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="/user/wish/<%=item.title%>/<%=item.release_date%>" class="btn btn-primary">Add to
+                                    Watchlist</a>
+                                <a href="/user/fav/<%=item.title%>/<%=item.release_date%>"><i class="fas fa-heart"></i></a>
                             </div>
                         </div>
                         <%});%>
